@@ -30,7 +30,7 @@ public class Printer3dConnector {
 		this.interfaccia.statoStringa=composizioneStringaStato();
 		this.printer3d.setVentolaON(getRandomBool());
 		this.interfaccia.imgAllarmi=getImgAllarmi();
-		this.interfaccia.imgVentola=getImgVentola();
+		this.interfaccia.idVentola=getIdVentola();
 		this.interfaccia.stileBottonePausa=getStileBottonePausa();
 		this.interfaccia.stileBottoneVentola=getStileBottoneVentola();
 	}
@@ -79,12 +79,12 @@ public class Printer3dConnector {
 		return "";
 	}
 
-	private String getImgVentola() {
+	private String getIdVentola() {
 		if (printer3d.isVentolaON()) {
-			return "./immagini/fanInterfaceOn.png";
+			return "ventolaAccesa";
 		}
 		else {
-			return "./immagini/fanInterfaceOff.png";
+			return "ventolaSpenta";
 		}
 	}
 

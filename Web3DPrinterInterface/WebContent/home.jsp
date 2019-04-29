@@ -24,7 +24,7 @@
 <img src="<%=statoStampante.interfaccia.imgAllarmi %>" >
 </td>
 <td>
-<img src="<%=statoStampante.interfaccia.imgVentola %>" >
+<div id="<%=statoStampante.interfaccia.idVentola %>"></div>
 </td>
 <td width=250>
 

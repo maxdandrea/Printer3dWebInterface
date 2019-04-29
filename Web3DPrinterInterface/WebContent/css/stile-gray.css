@@ -2,7 +2,6 @@
 
 body {
   background-color: #d1d1d1;
- text-align:center;
 }
 
 table.sezioniPrincipali{
@@ -40,7 +39,7 @@ input.pulsantiStandard {
 	    font-size: 24px;
 	    width: 200px;
 	    height:40px;
-    margin: 20px;
+    margin: 15px;
 	
 }
 
@@ -52,6 +51,110 @@ span.testoIndiciDettagli {
   text-align: right;
   font-weight:bold;
 
+}
+
+#ventolaSpenta {
+	width:60px;
+	height:200px;
+	margin-right:10px;
+	background-image: url("../immagini/fanInterfaceOff.png");
+	
+}
+
+#ventolaAccesa {
+	width:60px;
+	height:200px;
+	margin-right:10px;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -webkit-animation-duration: 2s;
+  -moz-animation-duration: 2s;
+  -o-animation-duration: 2s;
+  -ms-animation-duration: 5s;
+  animation-duration: 2s;
+  -webkit-animation-name: ventolarotante;
+  -moz-animation-name: ventolarotante;
+  -o-animation-name: ventolarotante;
+  -ms-animation-name: ventolarotante;
+  animation-name: ventolarotante;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -o-animation-iteration-count: infinite;
+  -ms-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  -o-animation-timing-function: linear;
+  -ms-animation-timing-function: linear;
+  animation-timing-function: linear;
+}
+
+@keyframes ventolarotante {
+0% {
+		
+background-image: url("../immagini/ventolaON/fanInterface1.png");	
+}
+15% {
+		
+background-image: url("../immagini/ventolaON/fanInterface2.png");	
+}
+30% {
+		
+background-image: url("../immagini/ventolaON/fanInterface3.png");	
+}
+45% {
+		
+background-image: url("../immagini/ventolaON/fanInterface4.png");	
+}
+60% {
+		
+background-image: url("../immagini/ventolaON/fanInterface5.png");	
+}
+75% {
+		
+background-image: url("../immagini/ventolaON/fanInterface6.png");	
+}
+90% {
+		
+background-image: url("../immagini/ventolaON/fanInterface7.png");	
+}
+	100% {
+background-image: url("../immagini/ventolaON/fanInterface8.png");	
+}
+
+@-webkit-keyframes ventolarotante {
+0% {
+		
+background-image: url("../immagini/ventolaON/fanInterface1.png");	
+}
+15% {
+		
+background-image: url("../immagini/ventolaON/fanInterface2.png");	
+}
+30% {
+		
+background-image: url("../immagini/ventolaON/fanInterface3.png");	
+}
+45% {
+		
+background-image: url("../immagini/ventolaON/fanInterface4.png");	
+}
+60% {
+		
+background-image: url("../immagini/ventolaON/fanInterface5.png");	
+}
+75% {
+		
+background-image: url("../immagini/ventolaON/fanInterface6.png");	
+}
+90% {
+		
+background-image: url("../immagini/ventolaON/fanInterface7.png");	
+}
+	100% {
+background-image: url("../immagini/ventolaON/fanInterface8.png");	
+}
 }
 
 div {

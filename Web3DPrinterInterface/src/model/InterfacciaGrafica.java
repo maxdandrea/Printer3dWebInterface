@@ -13,7 +13,7 @@ public class InterfacciaGrafica {
 	public Printer3d printer3d;
 	public String statoStringa;
 	public String imgAllarmi;
-	public String imgVentola;
+	public String idVentola;
 	public String stileBottonePausa;
 	public String stileBottoneVentola;
 
@@ -22,7 +22,7 @@ public InterfacciaGrafica() {
 	printer3d=new Printer3d();
 	statoStringa="Offline";
 	imgAllarmi="./immagini/allarmiInterfaceOffline.png";
-	imgVentola="./immagini/fanInterfaceOff.png";
+	idVentola="./immagini/fanInterfaceOff.png";
 	stileBottonePausa="";
 	stileBottoneVentola="";
 }
